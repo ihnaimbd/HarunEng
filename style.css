@@ -1,0 +1,258 @@
+body{
+    background-color: rgb(250, 240, 226);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav_head{
+    width: 100%;
+    margin: 20px 0px;
+    margin-left: 5%;
+}
+.nav_head ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     margin-right: 10%;
+   }
+   
+   .nav li {
+       float: right;
+       border: 3px inherit;
+       border-radius: 1px;
+
+   }
+   
+   .nav li a {
+     font-size: 20px;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+  .nav li a:hover:not(.active) {
+    background-color:#FD6E0A;
+    border-radius: 6px;
+  }
+   
+   
+
+.namesction{
+    width: 100%;
+    display: flex;
+    border: 20px;
+    background-image: url("image/header_bg.png");
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+
+.name{
+    width: 50%;
+    margin-left: 5%;
+}
+.color1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.color2{
+    color:darkolivegreen;
+    font-size: 25px;
+}
+.ppimg{
+    width: 40%;
+    padding-bottom: 10px;
+    padding-left: 300px;
+}
+.ppimg img{
+    height: 90%;
+}
+.link_button{
+    text-decoration: none;
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: aliceblue;
+    
+}
+
+  .name a:hover:not(.active) {
+    background-color:red;
+    border-radius: 6px;
+  }
+
+
+
+
+  .aboutDiv{
+    text-align: center;
+  }
+
+  .aboutDiv h1{
+     font-size: 40px;
+  }
+  
+  .aboutDiv p{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #list{
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+
+  .listinfo{
+     font-size: 20px;
+     list-style-type: none;
+     margin: 25px;
+     padding: 0;
+     overflow: hidden;
+     float: left;
+  }
+
+  .shadow{
+    height: 300px; 
+    box-shadow: 4px 7px 20px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+
+
+
+
+  .work h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+.work h3{
+    text-align: center;
+}
+  .work img{
+    height: 280px;
+    width: 280px;
+    border-radius: 20px;
+    margin: 15px;
+  }
+
+  .protimg {
+    float: left;
+    margin: 15px;
+    box-shadow: 4px 7px 10px gray;
+    border-radius: 15px;
+    align-items: center;
+  }
+  
+
+  .work{
+
+    height: 920px;
+    box-shadow: 4px 7px 20px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  /* Resume Styles */
+
+
+  .section-title{
+    font-size: 40px;
+    text-align: center;
+  }
+.resume-content{
+    display: flex;
+    gap: 24px;
+    height: 1000px;
+    box-shadow: 4px 7px 20px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+.resume-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    
+    
+    
+}
+.resume-title{
+    font-weight: 900;
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #FD6E0A;
+    padding: 20px 30px;
+    border-radius: 6px;
+    font-size: 25px;
+    color: aliceblue;
+    margin: 2% 42%;
+
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.submit_button{
+    text-decoration: none;
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
